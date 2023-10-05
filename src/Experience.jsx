@@ -13,7 +13,13 @@ export default function Experience() {
   const computer = useGLTF(
     "https://vazxmixjsiawhamofees.supabase.co/storage/v1/object/public/models/macbook/model.gltf"
   );
+  //console.log("loading gltf");
   //#6B705C,A6A2A2
+  //const mouseOver = () => {
+  //console.log("trying to move");
+  //computer.scene.position.setZ(100); // = 10;
+  //};
+
   return (
     <>
       <color args={["#6B705C"]} attach="background" />
@@ -37,6 +43,16 @@ export default function Experience() {
             position={[0, 0.55, -1.15]}
           />
           <primitive
+            onPointerEnter={() => {
+              computer.scene.position.setX(-1.25);
+              computer.scene.position.setY(-1);
+              computer.scene.position.setZ(1.5);
+            }}
+            onPointerLeave={() => {
+              computer.scene.position.setX(0);
+              computer.scene.position.setY(-1.2);
+              computer.scene.position.setZ(0);
+            }}
             object={computer.scene}
             position-y={-1.2}
             rotation-x={0.13}
