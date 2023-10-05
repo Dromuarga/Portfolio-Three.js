@@ -13,10 +13,10 @@ export default function Experience() {
   const computer = useGLTF(
     "https://vazxmixjsiawhamofees.supabase.co/storage/v1/object/public/models/macbook/model.gltf"
   );
-
+  //#6B705C,A6A2A2
   return (
     <>
-      <color args={["#241a1a"]} attach="background" />
+      <color args={["#6B705C"]} attach="background" />
       <Environment preset="city" />
 
       <PresentationControls

@@ -7,7 +7,7 @@ export default function App() {
   const [loading, setLoading] = useState(true);
   window.setTimeout(() => {
     setLoading(false);
-  }, 2000);
+  }, 8000);
   return (
     <>
       {loading ? (
