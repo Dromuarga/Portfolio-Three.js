@@ -40,7 +40,7 @@ This will run the application in the development mode.
 Portfolio Site with Three.js is a web-based portfolio showcasing project, leveraging the power of Three.js for 3D rendering and visualization.
 
 ### Features
-* **Interactive 3D desigb**: The centerpiece of this portfolio site is its interactive 3D layout, allowing visitors to explore the project from different angles. Visitor might change the position of the laptop with the coursor.
+* **Interactive 3D design**: The centerpiece of this portfolio site is its interactive 3D layout, allowing visitors to explore the project from different angles. Visitor might change the position of the laptop with the coursor.
 * **Zoom in**: By hovering over the laptop visitor is able to zoom in.
 * **Scroll**: Visitor can freely scroll down the page displayed on the laptop monitor.
 
